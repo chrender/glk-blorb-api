@@ -1,4 +1,4 @@
-Source: glk-blorb-api
+Source: glk-blorb-headers
 Section: libdevel
 Priority: extra
 Maintainer: Christoph Ender <christoph.ender@spellbreaker.org>
@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 9.0.0)
 Standards-Version: 4.0.0
 Homepage: http://www.eblong.com/zarf/glk/
 
-Package: glk-blorb-api-dev
+Package: glk-blorb-headers-dev
 Architecture: any
 Depends: ${misc:Depends}
 Description: Header files for development based on the GLK blorb-layer API.
