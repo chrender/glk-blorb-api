@@ -9,6 +9,7 @@ Homepage: http://www.eblong.com/zarf/glk/
 Package: glk-blorb-headers-dev
 Architecture: any
 Depends: ${misc:Depends}
-Description: Header files for development based on the GLK blorb-layer API.
+Description: Header files for development based on the GLK blorb-layer API
  This package provides the generic gi_blorb.h file which is required for
- development based on the blorb layer of Andrew Plotkin's GLK API.
+ development based on the blorb layer of Andrew Plotkin's GLK API, so it
+ can be later linked to one of the GLK libraries.
